@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+    animation: header 3s ease-in-out;
+    
+}
+@keyframes header{
+    0%{
+        transform: translateX(-100%);
+    }
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+   background-color: black;
+    overflow: hidden;
+   
+    
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 15px 20px;
+    color: white;
+
+}
+nav li{
+    display: inline-block;
+    margin: 10px;
+    font-weight: 400;
+    
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content{
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: beige;
+    overflow: hidden;
+    animation: content:
+
+}
+.content h1{
+    font-size: 80px;
+    margin-bottom: 5px;
+    letter-spacing: 8px;
+
+
+}
+.content h3{
+    font-size: 25px;
+    margin-bottom: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+span{
+    color: rgba(255, 0, 0, 0.925);
+
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+button{
+    padding: 15px 30px;
+    background: transparent;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 10px solid rgba(0, 0, 0, 0.932);
+    
+
+}
+button:hover{
+    background-color: rgba(255, 0, 0, 0.979);
+  
+
+    
+}
+img{
+    width: 30%;
+    margin-top: 8%;
+    
+}
+img{
+    width: 40rem;
+
+}
+@media screen and (max-width:1200px) {
+    .content{
+        /* width: 100%; */
+        /* text-align: center; */
+    }
+    .img{
+        width: 100%;
+        /* position: absolute; */
+        /* bottom: -5%; */
+        display: flex;
+        justify-content: center;
+
+    }
+    img{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:576px){
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .content h1{
+        margin-bottom: 5%;
+    }
+    .content h3{
+        margin-bottom: 5%;
+    }
+    .content p{
+        margin-bottom: 5%;
+    }
+}
+
+    .img{
+        width: 100%;
+        position: absolute;
+        bottom: -5%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .img{
+        width: 30rem;
+
+    }
+       
+
+
